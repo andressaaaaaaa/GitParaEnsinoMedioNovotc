@@ -17,3 +17,5 @@ git add .
 git commit -m "digitamos um texto que npossa descrever o que a gente fez"
 git status
 git push (precisaremos depois deste passo para passar o nosso usuário e senha do github) 
+
+kdsjkbjkbjjdujhgerusfview3tS
