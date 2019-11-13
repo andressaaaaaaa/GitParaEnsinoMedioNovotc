@@ -18,4 +18,24 @@ git commit -m "digitamos um texto que npossa descrever o que a gente fez"
 git status
 git push (precisaremos depois deste passo para passar o nosso usuário e senha do github) 
 
-kdsjkbjkbjjdujhgerusfview3tS
+segundo passo no git 
+criação de branchs(galhos de uma árvore)
+
+
+O uso de branchs é para criar cópias do projetp que se encintram na master (ou cópias de outras branchs )
+
+
+A continuação segue os comandos para criar uma branch no PC e no github
+
+git status (para conferir se tem arquivos para commitar)
+(se tiver arquivos não adicionados, repetir o passo número 1)
+
+git checkout -b "no da branch" 
+(fazendo isso a gente muda automaticamente da master para a nova branch)
+
+Fazendo todos os comandos anteriores estaremos em uma cópia da master
+Agora podemos editar os arquivos desta cópia e depois fazemos o passo número 1
+Cuidado quando vamos fazer o push devemo saber, que no Github não existe essa branch
+Então fazendo o git push, aparecerá uma recomendação, que devemos implentar
+
+git push --set-upstream origin "nome da branch"
